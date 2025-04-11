@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Precios Gulf-Store</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header>
+    <h1>Precios</h1>
+  </header>
+
+  <div class="container">
+    <div class="filters">
+      <input type="text" id="search" placeholder="Buscar producto..." />
+      <select id="categoryFilter">
+        <option value="">Todas las categorías</option>
+        <option value="Gaseosas">Gaseosas</option>
+        <option value="Jugos">Jugos</option>
+        <option value="Energéticas">Energéticas</option>
+        <option value="Aguas">Aguas</option>
+      </select>
+    </div>
+
+    <div id="productList"></div>
+  </div>
+
+  <script>
+    const productList = document.getElementById("productList");
+    const searchInput = document.getElementById("search");
+    const categoryFilter = document.getElementById("categoryFilter");
+    let products = [];
+  
+    function renderProducts(data) {
+      productList.innerHTML = "";
+      data.forEach(product => {
+        const div = document.createElement("div");
+        div.className = "product";
+        div.innerHTML = `
+          <div class="product-name">${product.name}</div>
+          <div class="product-price">$${product.price}</div>
+        `;
+        productList.appendChild(div);
+      });
+    }
+  
+    function filterProducts() {
+      const searchTerm = searchInput.value.toLowerCase();
+      const category = categoryFilter.value;
+      const filtered = products.filter(p => {
+        return (
+          p.name.toLowerCase().includes(searchTerm) &&
+          (category === "" || p.category === category)
+        );
+      });
+      renderProducts(filtered);
+    }
+  
+    // Cargar JSON externo
+    fetch("productos.json")
+      .then(res => res.json())
+      .then(data => {
+        products = data;
+        renderProducts(products);
+      });
+  
+    searchInput.addEventListener("input", filterProducts);
+    categoryFilter.addEventListener("change", filterProducts);
+  </script>
+  
+</body>
+</html>
