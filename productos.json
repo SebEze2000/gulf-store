@@ -1,8 +1,7 @@
-[
-    { "name": "Coca Cola Lata 354 CC", "price": 500, "category": "Gaseosas" },
-    { "name": "Sprite PET 1.750 LT", "price": 750, "category": "Gaseosas" },
-    { "name": "Speed 250 CC", "price": 400, "category": "Energéticas" },
-    { "name": "Powerade Manzana 995 CC", "price": 670, "category": "Jugos" },
-    { "name": "Villavicencio S/G 1500 CC", "price": 450, "category": "Aguas" },
-    { "name": "Aquarius Manzana 1.500 LTS.", "price": 650, "category": "Jugos" }
-]  
+{
+    "productos": [
+      { "name": "Coca Cola Lata 354 CC", "price": 500, "category": "Gaseosas" },
+      { "name": "Sprite PET 1.750 LT", "price": 750, "category": "Gaseosas" }
+    ]
+  }
+  

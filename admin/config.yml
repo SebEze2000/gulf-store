@@ -2,18 +2,24 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: "uploads"
-public_folder: "/uploads"
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
 
 collections:
   - name: "productos"
     label: "Productos"
+    label_singular: "Producto"
+    description: "Listado de productos disponibles"
     files:
       - file: "productos.json"
-        label: "Lista de productos"
-        name: "lista_productos"
+        label: "Lista de Productos"
+        name: "productos"
         format: "json"
         fields:
-          - { label: "Nombre", name: "name", widget: "string" }
-          - { label: "Precio", name: "price", widget: "number" }
-          - { label: "Categoría", name: "category", widget: "string" }
+          - label: "Productos"
+            name: "productos"
+            widget: "list"
+            fields:
+              - { label: "Nombre", name: "name", widget: "string" }
+              - { label: "Precio", name: "price", widget: "number" }
+              - { label: "Categoría", name: "category", widget: "select", options: ["Gaseosas", "Jugos", "Energéticas", "Aguas"] }
