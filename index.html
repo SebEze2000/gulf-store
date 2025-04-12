@@ -58,13 +58,14 @@
       renderProducts(filtered);
     }
   
-    // Cargar JSON externo
-    fetch("productos.json")
-      .then(res => res.json())
-      .then(data => {
-        products = data;
-        renderProducts(products);
-      });
+// Cargar JSON externo
+fetch("productos.json")
+  .then(res => res.json())
+  .then(data => {
+    products = data.productos; // 👈 corrección importante
+    renderProducts(products);
+  });
+
   
     searchInput.addEventListener("input", filterProducts);
     categoryFilter.addEventListener("change", filterProducts);
