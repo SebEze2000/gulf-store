@@ -1,7 +1,7 @@
 {
     "productos": [
-      { "name": "Coca Cola Lata 354 CC", "price": 500, "category": "Gaseosas" },
-      { "name": "Sprite PET 1.750 LT", "price": 750, "category": "Gaseosas" }
+      { "name": "Coca Cola Lata 354 CC", "price": 1800, "category": "Gaseosas" },
+      { "name": "Sprite PET 1.750 LT", "price": 4900, "category": "Gaseosas" }
     ]
   }
   
