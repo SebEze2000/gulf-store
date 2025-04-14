@@ -1,7 +1,1378 @@
 {
-    "productos": [
-      { "name": "Coca Cola Lata 354 CC", "price": 1800, "category": "Gaseosas" },
-      { "name": "Sprite PET 1.750 LT", "price": 4900, "category": "Gaseosas" }
-    ]
-  }
-  
+  "productos": [
+    {
+      "name": "7- UP NF CAN 354 CC.",
+      "price": 2000,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "7- UP NF PET 500 LT.",
+      "price": 2000,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "7- UP PET 1.500 LT.",
+      "price": 3100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "9 ORO AGRIDULCE X 200 GR.",
+      "price": 1250,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "9 ORO CLASICA X 200 GR.",
+      "price": 1250,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "9 ORO MADALENA VAINILLA",
+      "price": 360,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "9 ORO MADALENAS DDLECHE",
+      "price": 360,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "ADES MANZANA 200 CC.",
+      "price": 1050,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "ADES TROPICAL 200CC",
+      "price": 1050,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "AFRICANITOS",
+      "price": 5600,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "AGUA SMART WATER X 1.500 LT S/G",
+      "price": 2250,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "AGUA SMART WATER X 591 S/G",
+      "price": 1450,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "ALFAJOR JORGITO TUBO CHOCO",
+      "price": 3100,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "ALFAJOR JORGITO TUBO LECHE",
+      "price": 3100,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "ALFAJOR JORGITO TUBO MOUSSE",
+      "price": 3100,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "AMOR 112 GR.",
+      "price": 1700,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "AQUARIUS MANZANA 1.500 LTS.",
+      "price": 2800,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "AQUARIUS MANZANA 500 CC.",
+      "price": 1750,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "AQUARIUS PERA 1.500 LTS.",
+      "price": 2900,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "AQUARIUS PERA 500 CC",
+      "price": 1750,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "AQUARIUS POMELO 1.500 LTS.",
+      "price": 2800,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "AQUARIUS POMELO 500 CC.",
+      "price": 1750,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "ARABE CRUDO",
+      "price": 4700,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "ARABE JAMON Y QUESO",
+      "price": 3300,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "AZUCAR X 1 KG.",
+      "price": 1700,
+      "rubro": "ALMA",
+      "familia": "AZUCAR"
+    },
+    {
+      "name": "BAGUETTE CRUDO",
+      "price": 4700,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "BAGUETTE JAMON Y QUESO - SALAME",
+      "price": 3500,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "BANDEJA MIGA",
+      "price": 4100,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "BIZCOCHITO JORGITO 200 GR.",
+      "price": 1100,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CANONCITOS- FACTURAS",
+      "price": 1050,
+      "rubro": "COFR",
+      "familia": "COMI"
+    },
+    {
+      "name": "CEPITA DURAZNO HF PET 1 LT",
+      "price": 2350,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CEPITA M.FR. 200 CC TETRA LEAF",
+      "price": 850,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CEPITA MANZANA 200 CC TETRA LEAF",
+      "price": 850,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CEPITA NARANJA 200 CC. TETRA LEAF",
+      "price": 850,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CEPITA NARANJA HF PET 1 LT.",
+      "price": 2350,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CEREAL AZUCARADO TUTUCA 90 GR.",
+      "price": 1490,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CEREALES BAGLEY SALVADO 169 GR.",
+      "price": 1500,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CEREALITAS 200 GR.",
+      "price": 2200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CHOCOLINAS 170 GR.",
+      "price": 1700,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CHOCOLINAS X 100 GR.",
+      "price": 870,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CHURROS",
+      "price": 1050,
+      "rubro": "COFR",
+      "familia": "CHURR"
+    },
+    {
+      "name": "COCA COLA LATA 354 CC",
+      "price": 2100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "COCA COLA PET 1.750 LTS.",
+      "price": 5150,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "COCA COLA PET 237 CC.",
+      "price": 1000,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "COCA COLA SIN AZUCAR 237 CC.",
+      "price": 750,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "COCA COLA SO 500 CC.",
+      "price": 2100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "COCA COLA ZERO 354 CC.",
+      "price": 2100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "COCA COLA ZERO 500 CC.",
+      "price": 2100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "COFLER BANADA 132 GR.",
+      "price": 3300,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "COFLER COOKIES CHOCO",
+      "price": 3300,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "COFLER VAI RELLENAS CHOCOLATE X 85 GR.",
+      "price": 1230,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "COOKIES BOB",
+      "price": 3100,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CRIOLLITAS MAS 169 GR.",
+      "price": 240,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CRIOLLITAS ORIGINAL 100 GR.",
+      "price": 650,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CRISPPINO GALETAS DE ARROZ 50 GR.",
+      "price": 1500,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "CTC JUGO NARAN/DURAZNO 1000 CC",
+      "price": 4900,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CTC JUGO NARAN/MANGO 1000 CC",
+      "price": 4900,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CTC JUGO NARANJA 250 CC",
+      "price": 1400,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CTC JUGO NARANJA 500 CC",
+      "price": 2600,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CTC JUGO NARANJA 750 CC",
+      "price": 3150,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CTC JUGO NARANJA X 1000 CC",
+      "price": 4900,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CTC JUGO NARANJA/FRUTILLA 1000 CC.",
+      "price": 4900,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "CTC JUGO NARANJA/FRUTILLA 500 CC.",
+      "price": 2600,
+      "rubro": "BENV",
+      "familia": "JUGO"
+    },
+    {
+      "name": "EMPANADAS",
+      "price": 1400,
+      "rubro": "COFR",
+      "familia": "EMPA"
+    },
+    {
+      "name": "ENSALADA DE FRUTA",
+      "price": 4200,
+      "rubro": "COFR",
+      "familia": "ENFR"
+    },
+    {
+      "name": "ENSALADAS JAMON- POLLO",
+      "price": 6000,
+      "rubro": "COFR",
+      "familia": "ENSA"
+    },
+    {
+      "name": "FACTURAS",
+      "price": 750,
+      "rubro": "COFR",
+      "familia": "FACT"
+    },
+    {
+      "name": "FANTA 500 CC",
+      "price": 2100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "FANTA NAR BP 1.750",
+      "price": 5150,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "FANTA SIN AZUCARES- ZERO 354 CC",
+      "price": 2100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "FORMIS VAI/FRUTILLA X 102 GR.",
+      "price": 1350,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "GALLETA BLOCK 124 GR.",
+      "price": 1850,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "GALLETA CEREAL MIX FRUTILLA/ CHIA 207 GR.",
+      "price": 2200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "GALLETA CEREAL MIX AVENA / PASAS 180 GR.",
+      "price": 1450,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "GALLETA CEREAL MIX AVENA /PASAS NVA 207 GR.",
+      "price": 2200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "GALLETA CEREAL MIX AVENA/ MANZ. 180 GR.",
+      "price": 1450,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "GALLETA CEREAL MIX SEMILAS/ CHIPS 207 GR.",
+      "price": 2200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "GALLETA COFLER 120 GR.",
+      "price": 1850,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "GALLETITAS ROCKLETS 118 GR.",
+      "price": 1850,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "GATORADE COOL BLU PET 500 CC.",
+      "price": 2250,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "GATORADE COOL BLUE PET 750 CC.",
+      "price": 2550,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "GATORADE FRU TRO 500 CC.",
+      "price": 2250,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "GATORADE FRUTAS TROPICALES PET 750 CC.",
+      "price": 2550,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "GATORADE MANZANA PET 500 CC.",
+      "price": 2250,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "GATORADE MANZANA PET 750 CC.",
+      "price": 2550,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "HOGARENAS 7 SEMILLAS 189 GR.",
+      "price": 1050,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "KESITAS 75 GR.",
+      "price": 1350,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "KESITAS ESTUCHE 125 GR.",
+      "price": 2200,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "LECHE CHOCOLATADA- LACTOSA 200 CC.",
+      "price": 1580,
+      "rubro": "BENV",
+      "familia": "LECHE"
+    },
+    {
+      "name": "LINCOLN 153 GR.",
+      "price": 2350,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MACUCAS 110 GR.",
+      "price": 1000,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MANA CHO/ VAI 152 GR.",
+      "price": 1700,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MANA CHOCOLATADA 136 GR.",
+      "price": 1250,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MANA CON LECHE 136 GR.",
+      "price": 1250,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MANA LIM/ LIM X 152 GR.",
+      "price": 1700,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MANA LIMON 136 GR.",
+      "price": 1250,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MANA VAI/ CHO X 152 GR.",
+      "price": 1700,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MANA VAI/ FRU X 152 GR.",
+      "price": 1700,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MANA VAINILLA 136 GR.",
+      "price": 1250,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MANI 85 GR.",
+      "price": 2350,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "MATE LISTO TARAGUI",
+      "price": 2200,
+      "rubro": "ALMA",
+      "familia": "MATE"
+    },
+    {
+      "name": "MEDIALUNAS DE JAMON Y QUESO",
+      "price": 5300,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "MELLIZAS 112 GR.",
+      "price": 1700,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MERENGADAS- FRUTILLA 93 GR.",
+      "price": 1450,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MILA DE CARNE - POLLO",
+      "price": 7600,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "MINI OREO 50 GR.",
+      "price": 1100,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "MONSTER ENERGY ROSSI 473 CC.",
+      "price": 2700,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "MONSTER ENERGY-GREEN 473 CC.",
+      "price": 2700,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "MONSTER GREEN ZERO 473 CC.",
+      "price": 2700,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "MONSTER MANGO LOCO 473 CC",
+      "price": 2550,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "MONSTER RESERVE ANANA 473 CC",
+      "price": 2700,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "MONSTER ULTRA EAN 473 CC.",
+      "price": 2500,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "MONSTER ULTRA PARADISE X 473 CC.",
+      "price": 2700,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "MONSTER ULTRA SUNRISE 473 CC.",
+      "price": 2700,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "MONSTER ULTRA WATERMELON 473 CC.",
+      "price": 2750,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "OPERA SIMPLE 55 GR.",
+      "price": 1000,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "OPERA SIMPLE 92 GR.",
+      "price": 1270,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "OREO CLASICAS 118 GR.",
+      "price": 2100,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "PANCHOS ESPECIAL",
+      "price": 4900,
+      "rubro": "COFR",
+      "familia": "PANC"
+    },
+    {
+      "name": "PAPAS- DORITOS- NACHOS 95 GR.",
+      "price": 3150,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "PAPAS- DORITOS-RUEDITA-PEP 50 GR.",
+      "price": 1970,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "PASO DE LOS TOROS POMELO 1.500 LT.",
+      "price": 3300,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "PASO DE LOS TOROS POMELO CAN 269 CC.",
+      "price": 1750,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "PASO DE LOS TOROS POMELO- PET 500 CC.",
+      "price": 2000,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "PASO DE LOS TOROS TONICA 1.500 CC.",
+      "price": 3300,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "PASO DE LOS TOROS TONICA CAN 269 CC.",
+      "price": 1750,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "PASTA FROLA PORCION",
+      "price": 2400,
+      "rubro": "COFR",
+      "familia": "FROLA"
+    },
+    {
+      "name": "PASTELITOS",
+      "price": 1650,
+      "rubro": "COFR",
+      "familia": "PAST"
+    },
+    {
+      "name": "PEBETES JAMON Y QUESO - SALAME",
+      "price": 3300,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "PEPAS BENJAMIN 200 GR",
+      "price": 930,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "PEPAS BENJAMIN 500 GR.",
+      "price": 2200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "PEPITOS CLASICOS X 118 GR.",
+      "price": 2050,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "PEPSI CAN 354 BLACK",
+      "price": 1900,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "PEPSI CAN 354 CC.",
+      "price": 2000,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "PEPSI NF PE 500 LT.",
+      "price": 2000,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "PEPSI PET 1500 LT.",
+      "price": 3050,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "PITUSAS CHOCOLATE 160 GR.",
+      "price": 1200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "PITUSAS FRUTILLA 160 GR.",
+      "price": 1200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "PITUSAS JALEA 160 GR.",
+      "price": 1200,
+      "rubro": "PACO",
+      "familia": "BUDI"
+    },
+    {
+      "name": "PITUSAS VAINILLA 160 GR.",
+      "price": 1200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "PIZZAS JAMON",
+      "price": 5000,
+      "rubro": "COFR",
+      "familia": "COFR"
+    },
+    {
+      "name": "PIZZAS MUZZARELLA",
+      "price": 4300,
+      "rubro": "COFR",
+      "familia": "PIZZAS"
+    },
+    {
+      "name": "POCHOCLO",
+      "price": 1700,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "PORTENITAS 139 GR.",
+      "price": 1400,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "POWERADE FRUT. TROP. 1.500 CC.",
+      "price": 2450,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "POWERADE HOT FIL M. BLAST X 500 CC.",
+      "price": 1700,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "POWERADE HOT FILL M. BLAST 995 CC",
+      "price": 1950,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "POWERADE HOT FILL MANZANA 500 CC.",
+      "price": 1700,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "POWERADE HOT FILL MANZANA 995 CC.",
+      "price": 1950,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "POWERADE HOT FILL TROP 500 CC.",
+      "price": 1700,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "POWERADE HOT FILL TROP X 995 CC",
+      "price": 1950,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "POWERADE M. BLAST. 1.500 CC.",
+      "price": 2450,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "RED BULL APRICOT CAN 250 CC.",
+      "price": 3800,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "RED BULL BLUE EDITION CAN X 250 CC",
+      "price": 3850,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "RED BULL CAN 250 CC.",
+      "price": 3800,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "RED BULL CAN TROP EDITTION 250 CC.",
+      "price": 3800,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "RED BULL GREEN FRUTOS DEL DRAGON X 250 ML",
+      "price": 3800,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "RED BULL RED EDITTION CAN 250 CC.",
+      "price": 3800,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "RED BULL REGULAR CAN 355 CC.",
+      "price": 4800,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "RED BULL SUGAR FREE CAN 250 CC.",
+      "price": 3800,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "REX 75 GR.",
+      "price": 1350,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "REX ESTUCHE 125 GR.",
+      "price": 2200,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "REX TUBO 75 GR.",
+      "price": 1050,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "RICOTA PORCION",
+      "price": 2400,
+      "rubro": "COFR",
+      "familia": "RICO"
+    },
+    {
+      "name": "ROSETAS",
+      "price": 4400,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "ROSQUITA DE J Y Q",
+      "price": 3700,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "ROSQUITA DE POLLO",
+      "price": 5600,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "RUMBA 112 GR.",
+      "price": 1700,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SABORES CHIPS",
+      "price": 2800,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX CALABRESA 100 GR.",
+      "price": 1700,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX CROSS BBQ 67 GR.",
+      "price": 1250,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX CROSS ORIGINAL 135 GR.",
+      "price": 2350,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX CROSS ORIGINAL 67 GR.",
+      "price": 1250,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX CROSS PICANTE 67 GR.",
+      "price": 1250,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX CROSS PIZA ITALIANA 67 GR.",
+      "price": 1250,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX HORNEADO PICANTE 100 GR.",
+      "price": 1700,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX HORNEADOS EXTRA PICANTE",
+      "price": 1700,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX JAMON 100 GR.",
+      "price": 1700,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX KESITOS 70 GR.",
+      "price": 1900,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX PAPAS BARBACOA 58 GR.",
+      "price": 1900,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX PAPAS BARBACOA 95 GR.",
+      "price": 2500,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX PAPAS CHEDDAR 95 GR.",
+      "price": 2500,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX PAPAS CHEDDAR X 58 GR.",
+      "price": 1900,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX PAPAS ORIGINAL 58 GR.",
+      "price": 1900,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX PAPAS ORIGINAL 95 GR.",
+      "price": 2500,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX PARMESANO 100 GR.",
+      "price": 1500,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX PIZZA 100 GR.",
+      "price": 1700,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SALADIX STICKS PICAN 80 GR.",
+      "price": 1750,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "SANGUCHE DE LOMITO",
+      "price": 3600,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "SATUR AGRID X 200 GR.",
+      "price": 1200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SATUR GRASA X 200 GR",
+      "price": 1200,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SATUR MAGDA MARMOLADA 250 GR.",
+      "price": 2400,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SATUR MAGDALENA CHOCO DULCE LECHE- CHIPS 250 GR.",
+      "price": 2400,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SATUR MAGDALENA DDL X 250 GR.",
+      "price": 2400,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SATUR MAGDALENA VAINILLA 250 GR.",
+      "price": 2400,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SATUR TALITAS CLASICAS",
+      "price": 2000,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SATUR TALITAS SEMILLA 140 GR.",
+      "price": 2000,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SONRISAS FRAMBUESA 108 GR.",
+      "price": 1450,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "SPEED 250 CC",
+      "price": 1850,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "SPEED XL 500 CC.",
+      "price": 2900,
+      "rubro": "BENV",
+      "familia": "ENISO"
+    },
+    {
+      "name": "SPRITE 500 CC.",
+      "price": 2100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "SPRITE LATA 354 CC",
+      "price": 1850,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "SPRITE PET. 1.750 LT.",
+      "price": 4750,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "SPRITE SIN AZUCAR 500 CC",
+      "price": 2100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "SPRITE ZERO LATA 354 CC",
+      "price": 2100,
+      "rubro": "BENV",
+      "familia": "GASE"
+    },
+    {
+      "name": "SURTIDO BAGLEY 400 GR.",
+      "price": 3400,
+      "rubro": "PACO",
+      "familia": "GALL"
+    },
+    {
+      "name": "TARTA PORCION",
+      "price": 7200,
+      "rubro": "COFR",
+      "familia": "TORT"
+    },
+    {
+      "name": "TERMO LISTO TARAGUI",
+      "price": 3200,
+      "rubro": "ALMA",
+      "familia": "MATE"
+    },
+    {
+      "name": "TRIPLES JAMON COCIDO Y QUESO",
+      "price": 5200,
+      "rubro": "COFR",
+      "familia": "SANF"
+    },
+    {
+      "name": "TWISTOS 40 GR.",
+      "price": 1950,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "TWISTOS 95 GR.",
+      "price": 3200,
+      "rubro": "SNAC",
+      "familia": "FRIT"
+    },
+    {
+      "name": "VDS MANZANA 1500 CC.",
+      "price": 2400,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VDS MANZANA 500 CC.",
+      "price": 1650,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VDS NARANJA 1500 CC.",
+      "price": 2400,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VDS NARANJA 500 CC.",
+      "price": 1650,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VDS PERA 1500 CC.",
+      "price": 2400,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VDS PERA 500 CC.",
+      "price": 1650,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VDS POMELO 1500 CC.",
+      "price": 2400,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VDS POMELO 500 CC.",
+      "price": 1650,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VILLAVICENCIO FIN GAS 1500 CC.",
+      "price": 1950,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VILLAVICENCIO FIN GAS 500 CC.",
+      "price": 1300,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VILLAVICENCIO S/G 1500 C.C.",
+      "price": 1950,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VILLAVICENCIO S/G 2000 CC",
+      "price": 2150,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VILLAVICENCIO S/G 500 CC.",
+      "price": 1300,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "VILLAVICENCIO S/G SPORT 750 CC.",
+      "price": 1750,
+      "rubro": "BENV",
+      "familia": "AGUA"
+    },
+    {
+      "name": "YERBA MANANITAS 4 FLEX 500 GR.",
+      "price": 2850,
+      "rubro": "ALMA",
+      "familia": "YERB"
+    },
+    {
+      "name": "YERBA PLAYADITO 500 GR.",
+      "price": 4150,
+      "rubro": "ALMA",
+      "familia": "YERB"
+    },
+    {
+      "name": "YERBA TARAGUI 4 FLEX 500 GR.",
+      "price": 2800,
+      "rubro": "ALMA",
+      "familia": "YERB"
+    },
+    {
+      "name": "YERBA UNION 4 FLEX 500 GR.",
+      "price": 2800,
+      "rubro": "ALMA",
+      "familia": "YERB"
+    }
+  ]
+}
