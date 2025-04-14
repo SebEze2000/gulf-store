@@ -15,6 +15,10 @@
     <h1>Gulf-Store</h1>
   </header>
 
+  <button onclick="startScanner()">📷 Escanear código de barras</button>
+  <div id="scanner-container" style="width: 100%; max-width: 400px; margin-top: 20px;"></div>
+
+
   <div class="container">
     <div class="filters">
       <input type="text" id="search" placeholder="Buscar producto..." />
@@ -74,6 +78,51 @@ fetch("productos.json")
     searchInput.addEventListener("input", filterProducts);
     categoryFilter.addEventListener("change", filterProducts);
   </script>
+
+<script src="https://unpkg.com/quagga@0.12.1/dist/quagga.min.js"></script>
+<script>
+function startScanner() {
+  Quagga.init({
+    inputStream: {
+      name: "Live",
+      type: "LiveStream",
+      target: document.querySelector("#scanner-container"),
+      constraints: {
+        facingMode: "environment" // cámara trasera
+      },
+    },
+    decoder: {
+      readers: ["code_128_reader", "ean_reader", "ean_8_reader"]
+    },
+  }, function(err) {
+    if (err) {
+      console.error(err);
+      return;
+    }
+    Quagga.start();
+  });
+
+  Quagga.onDetected(result => {
+    const codigoEscaneado = result.codeResult.code;
+    console.log("Código detectado:", codigoEscaneado);
+
+    // Buscar en productos.json
+    fetch("productos.json")
+      .then(res => res.json())
+      .then(data => {
+        const producto = data.productos.find(p => p.codigo === codigoEscaneado);
+        if (producto) {
+          alert(`✅ ${producto.name}\n💲Precio: $${producto.price}`);
+        } else {
+          alert("❌ Producto no encontrado.");
+        }
+      });
+
+    Quagga.stop();
+  });
+}
+</script>
+
   
 </body>
 </html>

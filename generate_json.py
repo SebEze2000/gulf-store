@@ -38,7 +38,8 @@ for match in patron.finditer(texto):
             "name": nombre_limpio,
             "price": int(float(datos["precio"].replace(".", "").replace(",", "."))),
             "rubro": datos["rubro"],
-            "familia": datos["familia"]
+            "familia": datos["familia"],
+            "codigo": datos["codigo"]
         })
 
 # Guardar como JSON
