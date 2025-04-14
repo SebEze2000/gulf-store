@@ -16,6 +16,7 @@
   </header>
 
   <button onclick="startScanner()">📷 Escanear código de barras</button>
+  <button onclick="detenerScanner()">❌ Cerrar escáner</button>
   <div id="scanner-container" style="width: 100%; max-width: 400px; margin-top: 20px;"></div>
 
 
@@ -79,16 +80,27 @@ fetch("productos.json")
     categoryFilter.addEventListener("change", filterProducts);
   </script>
 
+
 <script src="https://unpkg.com/quagga@0.12.1/dist/quagga.min.js"></script>
+
 <script>
+let scannerActivo = false;
+
 function startScanner() {
+  const container = document.getElementById("scanner-container");
+  container.style.display = "block";
+
+  if (scannerActivo) {
+    return; // No iniciar dos veces
+  }
+
   Quagga.init({
     inputStream: {
       name: "Live",
       type: "LiveStream",
-      target: document.querySelector("#scanner-container"),
+      target: container,
       constraints: {
-        facingMode: "environment" // cámara trasera
+        facingMode: "environment"
       },
     },
     decoder: {
@@ -97,16 +109,18 @@ function startScanner() {
   }, function(err) {
     if (err) {
       console.error(err);
+      alert("❌ Error al iniciar la cámara");
       return;
     }
     Quagga.start();
+    scannerActivo = true;
   });
 
   Quagga.onDetected(result => {
     const codigoEscaneado = result.codeResult.code;
-    console.log("Código detectado:", codigoEscaneado);
+    console.log("Código escaneado:", codigoEscaneado);
 
-    // Buscar en productos.json
+    // Buscar producto
     fetch("productos.json")
       .then(res => res.json())
       .then(data => {
@@ -116,10 +130,16 @@ function startScanner() {
         } else {
           alert("❌ Producto no encontrado.");
         }
-      });
 
-    Quagga.stop();
+        detenerScanner(); // Detenemos sin importar si lo encuentra o no
+      });
   });
+}
+
+function detenerScanner() {
+  Quagga.stop();
+  document.getElementById("scanner-container").style.display = "none";
+  scannerActivo = false;
 }
 </script>
 
